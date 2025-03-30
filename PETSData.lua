@@ -1,4 +1,21 @@
 return {
+  Pets = {
+        "Soondoo",
+        "Gonshee",
+        "Daek",
+        "LongIn",
+        "Anders",
+        "Largalgan",
+        "Vermillion",
+        "Monarch",
+        "Ant Soldier",
+        "Ant Queen",
+        "Ziru",
+        "Snake Man",
+        "Blossom",
+        "Black Crow",
+        "Dor"
+  },
   Image = {
         ["Soondoo"] = {
             Image = "83952165808326",
