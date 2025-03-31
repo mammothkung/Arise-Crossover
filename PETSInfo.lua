@@ -1,5 +1,5 @@
 return {
-	Dongsoo = {
+	{
 		Name = "Soondoo";
 		Rarity = "Common";
 		Image = "rbxassetid://83952165808326";
@@ -11,7 +11,7 @@ return {
 		UltTicks = 20;
 		TickDelay = 0.1;
 	};
-	Gunhee = {
+	{
 		Name = "Gonshee";
 		Rarity = "Common";
 		Image = "rbxassetid://82914824031307";
@@ -23,7 +23,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 0.25;
 	};
-	Baek = {
+	{
 		Name = "Daek";
 		Rarity = "Common";
 		Image = "rbxassetid://112717350204803";
@@ -35,7 +35,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 0.6;
 	};
-	JongIn = {
+	{
 		Name = "LongIn";
 		Rarity = "Common";
 		Image = "rbxassetid://107186645910420";
@@ -47,7 +47,7 @@ return {
 		UltTicks = 3;
 		TickDelay = 0.35;
 	};
-	Andre = {
+	{
 		Name = "Anders";
 		Rarity = "Common";
 		Image = "rbxassetid://110844883730834";
@@ -59,7 +59,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 0.6;
 	};
-	Kargalgan = {
+	{
 		Name = "Largalgan";
 		Rarity = "Common";
 		Image = "rbxassetid://85957675205976";
@@ -71,7 +71,7 @@ return {
 		UltTicks = 4;
 		TickDelay = 0.35;
 	};
-	Igris = {
+	{
 		Name = "Vermillion";
 		Rarity = "Epic";
 		Image = "rbxassetid://120675730326685";
@@ -85,7 +85,7 @@ return {
 		AnimationType = "WeaponRight";
 		HaveWeapon = true;
 	};
-	JinWoo = {
+	{
 		Name = "Monarch";
 		Rarity = "Legendary";
 		Image = "rbxassetid://77293116688131";
@@ -99,7 +99,7 @@ return {
 		AnimationType = "DualDagger";
 		HaveWeapon = true;
 	};
-	RedAnt = {
+	{
 		Name = "Ant Soldier";
 		Rarity = "Common";
 		Image = "rbxassetid://103369685912011";
@@ -111,7 +111,7 @@ return {
 		UltTicks = 2;
 		TickDelay = 0.55;
 	};
-	AntQueen = {
+	{
 		Name = "Ant Queen";
 		Rarity = "Epic";
 		Image = "rbxassetid://73358558923030";
@@ -123,7 +123,7 @@ return {
 		UltTicks = 5;
 		TickDelay = 0.5;
 	};
-	Beru = {
+	{
 		Name = "Ziru";
 		Rarity = "Legendary";
 		Image = "rbxassetid://118102358638644";
@@ -135,7 +135,7 @@ return {
 		UltTicks = 4;
 		TickDelay = 0.3;
 	};
-	Orochimaru = {
+	{
 		Name = "Snake Man";
 		Rarity = "Common";
 		Image = "rbxassetid://118834985644786";
@@ -147,7 +147,7 @@ return {
 		UltTicks = 3;
 		TickDelay = 0.55;
 	};
-	Sakura = {
+	{
 		Name = "Blossom";
 		Rarity = "Common";
 		Image = "rbxassetid://85463295750056";
@@ -159,7 +159,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 0.75;
 	};
-	Itachi = {
+	{
 		Name = "Black Crow";
 		Rarity = "Common";
 		Image = "rbxassetid://129187553444710";
@@ -171,7 +171,7 @@ return {
 		UltTicks = 6;
 		TickDelay = 0.25;
 	};
-	Pain = {
+	{
 		Name = "Dor";
 		Rarity = "Epic";
 		Image = "rbxassetid://88039038571553";
@@ -183,7 +183,7 @@ return {
 		UltTicks = 2;
 		TickDelay = 0.55;
 	};
-	Naruto = {
+	{
 		Name = "Baruto";
 		Rarity = "Epic";
 		Image = "rbxassetid://126333146231735";
@@ -195,7 +195,7 @@ return {
 		UltTicks = 2;
 		TickDelay = 0.55;
 	};
-	Madara = {
+	{
 		Name = "Gadara";
 		Rarity = "Epic";
 		Image = "rbxassetid://87780484369985";
@@ -209,7 +209,7 @@ return {
 		AnimationType = "WeaponLeft";
 		HaveWeapon = true;
 	};
-	Arlong = {
+	{
 		Name = "Shark Man";
 		Rarity = "Common";
 		Image = "rbxassetid://79871264696421";
@@ -223,7 +223,7 @@ return {
 		AnimationType = "WeaponRight";
 		HaveWeapon = true;
 	};
-	Enel = {
+	{
 		Name = "Eminel";
 		Rarity = "Common";
 		Image = "rbxassetid://98239340301450";
@@ -235,7 +235,7 @@ return {
 		UltTicks = 2;
 		TickDelay = 0.55;
 	};
-	Kizaru = {
+	{
 		Name = "Light Admiral";
 		Rarity = "Common";
 		Image = "rbxassetid://126242936525296";
@@ -247,7 +247,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 1.35;
 	};
-	Mihalk = {
+	{
 		Name = "Mifalcon";
 		Rarity = "Epic";
 		Image = "rbxassetid://107612577565451";
@@ -261,7 +261,7 @@ return {
 		AnimationType = "WeaponRight";
 		HaveWeapon = true;
 	};
-	Luffy = {
+	{
 		Name = "Bluffy";
 		Rarity = "Epic";
 		Image = "rbxassetid://120787975949193";
@@ -273,7 +273,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 0.55;
 	};
-	Ace = {
+	{
 		Name = "Spade";
 		Rarity = "Epic";
 		Image = "rbxassetid://132741345296666";
@@ -285,7 +285,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 1.85;
 	};
-	Uryu = {
+	{
 		Name = "Luryu";
 		Rarity = "Common";
 		Image = "rbxassetid://126095804967650";
@@ -297,7 +297,7 @@ return {
 		UltTicks = 15;
 		TickDelay = 0.1;
 	};
-	Byakuya = {
+	{
 		Name = "Fyakuya";
 		Rarity = "Common";
 		Image = "rbxassetid://126843178605790";
@@ -311,7 +311,7 @@ return {
 		AnimationType = "WeaponRight";
 		HaveWeapon = true;
 	};
-	Renji = {
+	{
 		Name = "Genji";
 		Rarity = "Common";
 		Image = "rbxassetid://82883603953217";
@@ -325,7 +325,7 @@ return {
 		AnimationType = "WeaponRight";
 		HaveWeapon = true;
 	};
-	Ulquiorra = {
+	{
 		Name = "Murcielago";
 		Rarity = "Epic";
 		Image = "rbxassetid://113839395346393";
@@ -337,7 +337,7 @@ return {
 		UltTicks = 6;
 		TickDelay = 0.55;
 	};
-	Ichigo = {
+	{
 		Name = "Sango";
 		Rarity = "Epic";
 		Image = "rbxassetid://76889954679021";
@@ -351,7 +351,7 @@ return {
 		AnimationType = "WeaponRight";
 		HaveWeapon = true;
 	};
-	Aizen = {
+	{
 		Name = "Baizen";
 		Rarity = "Epic";
 		Image = "rbxassetid://109899462635904";
@@ -363,7 +363,7 @@ return {
 		UltTicks = 2;
 		TickDelay = 0.55;
 	};
-	Yhwach = {
+	{
 		Name = "Watch";
 		Rarity = "Legendary";
 		Image = "rbxassetid://97471965633740";
@@ -375,7 +375,7 @@ return {
 		UltTicks = 2;
 		TickDelay = 0.55;
 	};
-	Luck = {
+	{
 		Name = "Sortudo";
 		Rarity = "Common";
 		Image = "rbxassetid://80858683521623";
@@ -387,7 +387,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 1.35;
 	};
-	Noelle = {
+	{
 		Name = "Michille";
 		Rarity = "Common";
 		Image = "rbxassetid://89371477242358";
@@ -399,7 +399,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 0.8;
 	};
-	Yuno = {
+	{
 		Name = "Wind";
 		Rarity = "Common";
 		Image = "rbxassetid://99287135812683";
@@ -411,7 +411,7 @@ return {
 		UltTicks = 8;
 		TickDelay = 0.3;
 	};
-	Julius = {
+	{
 		Name = "Time King";
 		Rarity = "Epic";
 		Image = "rbxassetid://114434346910180";
@@ -423,7 +423,7 @@ return {
 		UltTicks = 5;
 		TickDelay = 0.4;
 	};
-	Asta = {
+	{
 		Name = "Asta";
 		Rarity = "Epic";
 		Image = "rbxassetid://90480269220633";
@@ -435,7 +435,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 0.55;
 	};
-	Yami = {
+	{
 		Name = "Yami";
 		Rarity = "Epic";
 		Image = "rbxassetid://133923636580424";
@@ -447,7 +447,7 @@ return {
 		UltTicks = 3;
 		TickDelay = 0.4;
 	};
-	Angel = {
+	{
 		Name = "Heaven";
 		Rarity = "Common";
 		Image = "rbxassetid://87697012864980";
@@ -461,7 +461,7 @@ return {
 		AnimationType = "WeaponRight";
 		HaveWeapon = true;
 	};
-	Reze = {
+	{
 		Name = "Zere";
 		Rarity = "Common";
 		Image = "rbxassetid://81287998215373";
@@ -473,7 +473,7 @@ return {
 		UltTicks = 12;
 		TickDelay = 0.1;
 	};
-	Aki = {
+	{
 		Name = "Ika";
 		Rarity = "Common";
 		Image = "rbxassetid://102731521014741";
@@ -487,7 +487,7 @@ return {
 		AnimationType = "WeaponRight";
 		HaveWeapon = true;
 	};
-	Denji = {
+	{
 		Name = "Chainsaw";
 		Rarity = "Epic";
 		Image = "rbxassetid://123800699010692";
@@ -499,7 +499,7 @@ return {
 		UltTicks = 18;
 		TickDelay = 0.1;
 	};
-	Makima = {
+	{
 		Name = "Makima";
 		Rarity = "Epic";
 		Image = "rbxassetid://125653024075024";
@@ -511,7 +511,7 @@ return {
 		UltTicks = 3;
 		TickDelay = 0.4;
 	};
-	Power = {
+	{
 		Name = "Power";
 		Rarity = "Epic";
 		Image = "rbxassetid://125635397132158";
@@ -523,7 +523,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 1.85;
 	};
-	Diavolo = {
+	{
 		Name = "Diablo";
 		Rarity = "Common";
 		Image = "rbxassetid://138682559488178";
@@ -538,7 +538,7 @@ return {
 		StandIdle = "rbxassetid://136985872335838";
 		StandWalk = "rbxassetid://98941256430771";
 	};
-	Josuke = {
+	{
 		Name = "Gosuke";
 		Rarity = "Common";
 		Image = "rbxassetid://117640540539249";
@@ -553,7 +553,7 @@ return {
 		StandIdle = "rbxassetid://105178428106061";
 		StandWalk = "rbxassetid://98941256430771";
 	};
-	Jolyne = {
+	{
 		Name = "Golyne";
 		Rarity = "Common";
 		Image = "rbxassetid://115364899308897";
@@ -568,7 +568,7 @@ return {
 		StandIdle = "rbxassetid://79026643543239";
 		StandWalk = "rbxassetid://98941256430771";
 	};
-	Pucci = {
+	{
 		Name = "Gucci";
 		Rarity = "Epic";
 		Image = "rbxassetid://72858700577127";
@@ -583,7 +583,7 @@ return {
 		StandIdle = "rbxassetid://101721004911535";
 		StandWalk = "rbxassetid://98941256430771";
 	};
-	Jotaro = {
+	{
 		Name = "Jotaro";
 		Rarity = "Epic";
 		Image = "rbxassetid://75642158835719";
@@ -598,7 +598,7 @@ return {
 		StandIdle = "rbxassetid://97953659652796";
 		StandWalk = "rbxassetid://98941256430771";
 	};
-	Dio = {
+	{
 		Name = "Dio";
 		Rarity = "Epic";
 		Image = "rbxassetid://76755016421598";
@@ -613,7 +613,7 @@ return {
 		StandIdle = "rbxassetid://138049448633339";
 		StandWalk = "rbxassetid://98941256430771";
 	};
-	DioOverHeaven = {
+	{
 		Name = "DioOverHeaven";
 		Rarity = "Legendary";
 		Image = "rbxassetid://138601404764352";
@@ -628,7 +628,7 @@ return {
 		StandIdle = "rbxassetid://139300392324708";
 		StandWalk = "rbxassetid://98941256430771";
 	};
-	Genos = {
+	{
 		Name = "Genos";
 		Rarity = "Common";
 		Image = "rbxassetid://79766928858773";
@@ -640,7 +640,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 1.35;
 	};
-	Tornado = {
+	{
 		Name = "Tornado";
 		Rarity = "Common";
 		Image = "rbxassetid://126138839369014";
@@ -652,7 +652,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 0.8;
 	};
-	Mumem = {
+	{
 		Name = "MumemRider";
 		Rarity = "Common";
 		Image = "rbxassetid://128378128442053";
@@ -664,7 +664,7 @@ return {
 		UltTicks = 8;
 		TickDelay = 0.3;
 	};
-	Saitama = {
+	{
 		Name = "Saitama";
 		Rarity = "Epic";
 		Image = "rbxassetid://139239878579790";
@@ -676,7 +676,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 0.55;
 	};
-	Garou = {
+	{
 		Name = "Garou";
 		Rarity = "Epic";
 		Image = "rbxassetid://79042830449144";
@@ -688,7 +688,7 @@ return {
 		UltTicks = 3;
 		TickDelay = 0.4;
 	};
-	Boros = {
+	{
 		Name = "Boros";
 		Rarity = "Epic";
 		Image = "rbxassetid://85018405738633";
@@ -700,7 +700,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 1.85;
 	};
-	Kame = {
+	{
 		Name = "Kame";
 		Rarity = "Common";
 		Image = "rbxassetid://70798111519068";
@@ -712,7 +712,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 1.35;
 	};
-	Piccolo = {
+	{
 		Name = "Piccolo";
 		Rarity = "Common";
 		Image = "rbxassetid://75921494166975";
@@ -724,7 +724,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 0.8;
 	};
-	Cell = {
+	{
 		Name = "Cell";
 		Rarity = "Common";
 		Image = "rbxassetid://109405597823060";
@@ -736,7 +736,7 @@ return {
 		UltTicks = 8;
 		TickDelay = 0.3;
 	};
-	Goku = {
+	{
 		Name = "Goku";
 		Rarity = "Epic";
 		Image = "rbxassetid://140500331554825";
@@ -748,7 +748,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 0.55;
 	};
-	Beerus = {
+	{
 		Name = "Beerus";
 		Rarity = "Epic";
 		Image = "rbxassetid://139031693510403";
@@ -760,7 +760,7 @@ return {
 		UltTicks = 3;
 		TickDelay = 0.4;
 	};
-	Freeza = {
+	{
 		Name = "Freeza";
 		Rarity = "Epic";
 		Image = "rbxassetid://108110727195816";
@@ -772,7 +772,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 1.85;
 	};
-	VegetaEgo = {
+	{
 		Name = "VegetaEgo";
 		Rarity = "Legendary";
 		Image = "rbxassetid://92052320943642";
@@ -784,7 +784,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 0.55;
 	};
-	Killua = {
+	{
 		Name = "Killua";
 		Rarity = "Common";
 		Image = "rbxassetid://96036756631384";
@@ -796,7 +796,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 1.35;
 	};
-	Hisoka = {
+	{
 		Name = "Hisoka";
 		Rarity = "Common";
 		Image = "rbxassetid://121896129882023";
@@ -808,7 +808,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 0.8;
 	};
-	Pitou = {
+	{
 		Name = "Pitou";
 		Rarity = "Common";
 		Image = "rbxassetid://95358385742771";
@@ -820,7 +820,7 @@ return {
 		UltTicks = 8;
 		TickDelay = 0.3;
 	};
-	Gon = {
+	{
 		Name = "Gon";
 		Rarity = "Epic";
 		Image = "rbxassetid://84081575282225";
@@ -832,7 +832,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 0.55;
 	};
-	Meruem = {
+	{
 		Name = "Meruem";
 		Rarity = "Epic";
 		Image = "rbxassetid://78782228803078";
@@ -844,7 +844,7 @@ return {
 		UltTicks = 3;
 		TickDelay = 0.4;
 	};
-	Netero = {
+	{
 		Name = "Netero";
 		Rarity = "Epic";
 		Image = "rbxassetid://75701987215211";
@@ -856,7 +856,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 1.85;
 	};
-	Seiko = {
+	{
 		Name = "Seiko";
 		Rarity = "Common";
 		Image = "rbxassetid://78951967545714";
@@ -868,7 +868,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 1.35;
 	};
-	Serpo = {
+	{
 		Name = "Serpo";
 		Rarity = "Common";
 		Image = "rbxassetid://97732302229347";
@@ -880,7 +880,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 0.8;
 	};
-	Aira = {
+	{
 		Name = "Aira";
 		Rarity = "Common";
 		Image = "rbxassetid://136913687054358";
@@ -892,7 +892,7 @@ return {
 		UltTicks = 8;
 		TickDelay = 0.3;
 	};
-	Okarun = {
+	{
 		Name = "Okarun";
 		Rarity = "Epic";
 		Image = "rbxassetid://94048936578858";
@@ -904,7 +904,7 @@ return {
 		UltTicks = 1;
 		TickDelay = 0.55;
 	};
-	Mantis = {
+	{
 		Name = "Mantis";
 		Rarity = "Epic";
 		Image = "rbxassetid://108204812271712";
@@ -916,7 +916,7 @@ return {
 		UltTicks = 3;
 		TickDelay = 0.4;
 	};
-	Momo = {
+	{
 		Name = "Momo";
 		Rarity = "Epic";
 		Image = "rbxassetid://121473031879783";
