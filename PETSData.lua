@@ -22,91 +22,106 @@ return {
 				Type = "Dropdown",
 				Multi = true,
 				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
-				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				LayoutOrder = 1
 			},
 			["Gonshee"] = {
 				Type = "Dropdown",
 				Multi = true,
 				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
-				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				LayoutOrder = 2
 			},
 			["Daek"] = {
 				Type = "Dropdown",
 				Multi = true,
 				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
-				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				LayoutOrder = 3
 			},
 			["LongIn"] = {
 				Type = "Dropdown",
 				Multi = true,
 				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
-				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				LayoutOrder = 4
 			},
 			["Anders"] = {
 				Type = "Dropdown",
 				Multi = true,
 				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
-				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				LayoutOrder = 5
 			},
 			["Largalgan"] = {
 				Type = "Dropdown",
 				Multi = true,
 				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
-				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				LayoutOrder = 6
 			},
 			["Vermillion"] = {
 				Type = "Dropdown",
 				Multi = true,
 				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
-				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				LayoutOrder = 7
 			},
 			["Monarch"] = {
 				Type = "Dropdown",
 				Multi = true,
 				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
-				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				LayoutOrder = 8
 			},
 			["Ant Soldier"] = {
 				Type = "Dropdown",
 				Multi = true,
 				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
-				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				LayoutOrder = 9
 			},
 			["Ant Queen"] = {
 				Type = "Dropdown",
 				Multi = true,
 				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
-				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				LayoutOrder = 10
 			},
 			["Ziru"] = {
 				Type = "Dropdown",
 				Multi = true,
 				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
-				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				LayoutOrder = 11
 			},
 			["Snake Man"] = {
 				Type = "Dropdown",
 				Multi = true,
 				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
-				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				LayoutOrder = 12
 			},
 			["Blossom"] = {
 				Type = "Dropdown",
 				Multi = true,
 				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
-				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				LayoutOrder = 13
 			},
 			["Black Crow"] = {
 				Type = "Dropdown",
 				Multi = true,
 				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
-				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				LayoutOrder = 14
 			},
 			["Dor"] = {
 				Type = "Dropdown",
 				Multi = true,
 				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
-				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				LayoutOrder = 15
 			}
 		},
 		Title = {
