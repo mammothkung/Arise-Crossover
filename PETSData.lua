@@ -16,6 +16,147 @@ return {
 		  "Black Crow",
 		  "Dor"
 	},
+	Tier = {
+		Dropdown = {
+			["Soondoo"] = {
+				Type = "Dropdown",
+				Multi = true,
+				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+			},
+			["Gonshee"] = {
+				Type = "Dropdown",
+				Multi = true,
+				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+			},
+			["Daek"] = {
+				Type = "Dropdown",
+				Multi = true,
+				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+			},
+			["LongIn"] = {
+				Type = "Dropdown",
+				Multi = true,
+				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+			},
+			["Anders"] = {
+				Type = "Dropdown",
+				Multi = true,
+				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+			},
+			["Largalgan"] = {
+				Type = "Dropdown",
+				Multi = true,
+				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+			},
+			["Vermillion"] = {
+				Type = "Dropdown",
+				Multi = true,
+				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+			},
+			["Monarch"] = {
+				Type = "Dropdown",
+				Multi = true,
+				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+			},
+			["Ant Soldier"] = {
+				Type = "Dropdown",
+				Multi = true,
+				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+			},
+			["Ant Queen"] = {
+				Type = "Dropdown",
+				Multi = true,
+				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+			},
+			["Ziru"] = {
+				Type = "Dropdown",
+				Multi = true,
+				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+			},
+			["Snake Man"] = {
+				Type = "Dropdown",
+				Multi = true,
+				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+			},
+			["Blossom"] = {
+				Type = "Dropdown",
+				Multi = true,
+				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+			},
+			["Black Crow"] = {
+				Type = "Dropdown",
+				Multi = true,
+				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+			},
+			["Dor"] = {
+				Type = "Dropdown",
+				Multi = true,
+				List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+				Default = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"}
+			}
+		},
+		Title = {
+			["Soondoo"] = {
+				Title = "Select Rank"
+			},
+			["Gonshee"] = {
+				Title = "Select Rank"
+			},
+			["Daek"] = {
+				Title = "Select Rank"
+			},
+			["LongIn"] = {
+				Title = "Select Rank"
+			},
+			["Anders"] = {
+				Title = "Select Rank"
+			},
+			["Largalgan"] = {
+				Title = "Select Rank"
+			},
+			["Vermillion"] = {
+				Title = "Select Rank"
+			},
+			["Monarch"] = {
+				Title = "Select Rank"
+			},
+			["Ant Soldier"] = {
+				Title = "Select Rank"
+			},
+			["Ant Queen"] = {
+				Title = "Select Rank"
+			},
+			["Ziru"] = {
+				Title = "Select Rank"
+			},
+			["Snake Man"] = {
+				Title = "Select Rank"
+			},
+			["Blossom"] = {
+				Title = "Select Rank"
+			},
+			["Black Crow"] = {
+				Title = "Select Rank"
+			},
+			["Dor"] = {
+				Title = "Select Rank"
+			}
+		}
+	},
 	Image = {
 		  ["Soondoo"] = {
 			  Image = "83952165808326",
