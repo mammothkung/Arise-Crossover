@@ -5,6 +5,7 @@ local Time = 0
 local Data = {
     Pets = {
         Sell = {},
+        Arise = {},
         Enemy = {
             ["Dragon City"] = {},
             ["Brum Island"] = {},
@@ -64,11 +65,12 @@ for i,v in next, Info do
             Multi = true,
             LayoutOrder = Time
         }
-        Data.Image[v.Name] = {
-            Image = v.Image,
-            Color = true,
-            BackgroundTransparency = 1
-        }
+        table.insert(Data.Pets.Arise, v.Name)
     end
+    Data.Image[v.Name] = {
+        Image = v.Image,
+        Color = true,
+        BackgroundTransparency = 1
+    }
 end
 return Data
