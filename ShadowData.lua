@@ -48,25 +48,27 @@ for i,v in next, Info do
             Min = 1,
             Max = 5,
             List = {"Boss", "Normal"},
-            DefaultDropdown = "Boss",
+            DefaultDropdown = {"Boss", "Normal"},
             DropdownTitle = "Select Type",
-            Multi = false,
+            Multi = true,
             LayoutOrder = Time,
             Rounding = 0
         }
     end
-    Data.Pets.Sell[v.Name] = {
-        Type = "Dropdown",
-        List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
-        DefaultDropdown = {"E", "D", "C", "B", "A", "S"},
-        DropdownTitle = "Select Rank",
-        Multi = true,
-        LayoutOrder = Time
-    }
-    Data.Image[v.Name] = {
-        Image = v.Image,
-        Color = true,
-        BackgroundTransparency = 1
-    }
+    if b then
+        Data.Pets.Sell[v.Name] = {
+            Type = "Dropdown",
+            List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+            DefaultDropdown = {"E", "D", "C", "B", "A"},
+            DropdownTitle = "Select Rank",
+            Multi = true,
+            LayoutOrder = Time
+        }
+        Data.Image[v.Name] = {
+            Image = v.Image,
+            Color = true,
+            BackgroundTransparency = 1
+        }
+    end
 end
 return Data
