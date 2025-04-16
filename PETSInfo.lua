@@ -100,6 +100,20 @@ return {
 		HaveWeapon = true;
 	};
 	{
+		Name = "Wesil";
+		Rarity = "Legendary";
+		Image = "rbxassetid://75043579545095";
+		ImageOff = "rbxassetid://129909972390407";
+		Area = 1;
+		HitDMG = 1350;
+		UltDMG = 8200;
+		HitsToUlt = 6;
+		UltTicks = 4;
+		TickDelay = 0.4;
+		AnimationType = "WeaponRight";
+		HaveWeapon = true;
+	};
+	{
 		Name = "Ant Soldier";
 		Rarity = "Common";
 		Image = "rbxassetid://103369685912011";
@@ -701,7 +715,7 @@ return {
 		TickDelay = 1.85;
 	};
 	{
-		Name = "Kame";
+		Name = "Turtle";
 		Rarity = "Common";
 		Image = "rbxassetid://70798111519068";
 		ImageOff = "rbxassetid://101339068683777";
@@ -713,7 +727,7 @@ return {
 		TickDelay = 1.35;
 	};
 	{
-		Name = "Piccolo";
+		Name = "Green";
 		Rarity = "Common";
 		Image = "rbxassetid://75921494166975";
 		ImageOff = "rbxassetid://88613022012062";
@@ -725,7 +739,7 @@ return {
 		TickDelay = 0.8;
 	};
 	{
-		Name = "Cell";
+		Name = "Sky";
 		Rarity = "Common";
 		Image = "rbxassetid://109405597823060";
 		ImageOff = "rbxassetid://139194963960508";
@@ -761,7 +775,7 @@ return {
 		TickDelay = 0.4;
 	};
 	{
-		Name = "Freeza";
+		Name = "Frioo";
 		Rarity = "Epic";
 		Image = "rbxassetid://108110727195816";
 		ImageOff = "rbxassetid://140433550226931";
