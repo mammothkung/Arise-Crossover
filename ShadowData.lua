@@ -57,7 +57,7 @@ for i,v in next, Info do
             Rounding = 0
         }
     end
-    if EId.Convert[v.Name] then
+    if EId.Default[v.Name] then
         Data.Pets.Sell[v.Name] = {
             Type = "Dropdown",
             List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
