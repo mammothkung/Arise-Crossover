@@ -42,26 +42,26 @@ for i,v in next, Info do
        g = GetEnemy(b)
     end
     if g then
-        Data.Pets.Sell[g][v.Name] = {
-            Type = "Dropdown",
-            List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
-            DefaultDropdown = {"E", "D", "C", "B", "A", "S"},
-            DropdownTitle = "Select Rank",
-            Multi = true,
-            LayoutOrder = Time
+        Data.Pets.Enemy[g][v.Name] = {
+            Type = {"Dropdown", "Slider"},
+            SliderTitle = "Select Priority",
+            Min = 1,
+            Max = 5,
+            List = {"Boss", "Normal"},
+            DefaultDropdown = "Boss",
+            DropdownTitle = "Select Type",
+            Multi = false,
+            LayoutOrder = Time,
+            Rounding = 0
         }
     end
-    Data.Pets.Enemy[v.Name] = {
-        Type = {"Dropdown", "Slider"},
-        SliderTitle = "Select Priority",
-        Min = 1,
-        Max = 5,
-        List = {"Boss", "Normal"},
-        DefaultDropdown = "Boss",
-        DropdownTitle = "Select Type",
-        Multi = false,
-        LayoutOrder = Time,
-        Rounding = 0
+    Data.Pets.Sell[v.Name] = {
+        Type = "Dropdown",
+        List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
+        DefaultDropdown = {"E", "D", "C", "B", "A", "S"},
+        DropdownTitle = "Select Rank",
+        Multi = true,
+        LayoutOrder = Time
     }
     Data.Image[v.Name] = {
         Image = v.Image,
@@ -69,5 +69,4 @@ for i,v in next, Info do
         BackgroundTransparency = 1
     }
 end
-
 return Data
