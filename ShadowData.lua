@@ -1,3 +1,4 @@
+local EId = loadstring(game:HttpGet("https://raw.githubusercontent.com/mammothkung/Arise-Crossover/refs/heads/main/EnemyID.lua"))()
 local Map = loadstring(game:HttpGet("https://raw.githubusercontent.com/mammothkung/Arise-Crossover/refs/heads/main/MapDisplay.lua"))()
 local Pet = loadstring(game:HttpGet("https://raw.githubusercontent.com/mammothkung/Arise-Crossover/refs/heads/main/DisplayName.lua"))()
 local Info = loadstring(game:HttpGet("https://raw.githubusercontent.com/mammothkung/Arise-Crossover/refs/heads/main/PETSInfo.lua"))()
@@ -56,7 +57,7 @@ for i,v in next, Info do
             Rounding = 0
         }
     end
-    if b then
+    if EId.Convert[v.Name] then
         Data.Pets.Sell[v.Name] = {
             Type = "Dropdown",
             List = {"E", "D", "C", "B", "A", "S", "SS", "G", "N"},
