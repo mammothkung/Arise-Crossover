@@ -6,14 +6,14 @@ local Data = {
     Pets = {
         Sell = {},
         Enemy = {
-            ["DBWorld"] = {},
-            ["OPWorld"] = {},
-            ["BCWorld"] = {},
-            ["JojoWorld"] = {},
-            ["SoloWorld"] = {},
-            ["NarutoWorld"] = {},
-            ["BleachWorld"] = {},
-            ["ChainsawWorld"] = {}
+            ["Dragon City"] = {},
+            ["Brum Island"] = {},
+            ["Lucky Kingdom"] = {},
+            ["Mori Town"] = {},
+            ["Leveling City"] = {},
+            ["Grass Village"] = {},
+            ["Faceheal Town"] = {},
+            ["Nipon City"] = {}
         }
     },
     Image = {}
