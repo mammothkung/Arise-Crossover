@@ -62,7 +62,7 @@ for i,v in next, Rune do
     }
     Data.Rune.Image[v.Name] = {
         Image = v.Image,
-        Color = false,
+        Color = true,
         BackgroundTransparency = 1
     }
 end
