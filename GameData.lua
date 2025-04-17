@@ -47,14 +47,14 @@ local function GetEnemy(n)
 end
 local function ConvertWorld(x)
     return
-        (x == "Dragon City" and "DBWorld") or
-        (x == "Brum Island" and "OPWorld") or
-        (x == "Lucky Kingdom" and "BCWorld") or
-        (x == "Mori Town" and "JojoWorld") or
-        (x == "Leveling City" and "SoloWorld") or
-        (x == "Grass Village" and "NarutoWorld") or
-        (x == "Faceheal Town" and "BleachWorld") or
-        (x == "Nipon City" and "ChainsawWorld")
+        (x == "DBWorld" and "Dragon City") or
+        (x == "OPWorld" and "Brum Island") or
+        (x == "BCWorld" and "Lucky Kingdom") or
+        (x == "JojoWorld" and "Mori Town") or
+        (x == "SoloWorld" and "Leveling City") or
+        (x == "NarutoWorld" and "Grass Village") or
+        (x == "BleachWorld" and "Faceheal Town") or
+        (x == "ChainsawWorld" and "Nipon City")
 end
 for i,v in next, Rune do
     x0uz += 1
