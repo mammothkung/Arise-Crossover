@@ -35,11 +35,6 @@ local Data = {
     },
     Image = {}
 }
-local Kw = {}
-for i,v in next, Map do
-    table.insert(Kw, v.Name)
-end
-
 local function GetPet(n)
     for i,v in next, Pet do
         if v.Name == n then
@@ -65,18 +60,23 @@ local function ConvertWorld(x)
         (x == "BleachWorld" and "Faceheal Town") or
         (x == "ChainsawWorld" and "Nipon City")
 end
+local function ReturnWorld(x)
+    local k = {}
+    for i,v in next, Map do
+        if v.Name ~= (x or "") then
+            table.insert(k, v.Name)
+        end
+    end
+    return k
+end
 for i,v in next, Rune do
     x0uz += 1
-    local b = Kw
-    if table.find(b, ConvertWorld(v.Dungeon.World)) then
-        table.remove(b, table.find(b, ConvertWorld(v.Dungeon.World)))
-    end
     Data.Rune.Data[v.Name] = {
         Type = {"Dropdown", "Dropdown2"},
         List = {"E", "D", "C", "B", "A", "S", "SS"},
         DropdownTitle = "Select Rank",
         DropdownTitle2 = "Select World",
-        List2 = b,
+        List2 = ReturnWorld(ConvertWorld(v.Dungeon.World)),
         Multi = true,
         Multi2 = true,
         DefaultDropdown = {"E", "D", "C", "B", "A"},
