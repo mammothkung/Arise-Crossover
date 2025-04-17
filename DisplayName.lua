@@ -87,16 +87,68 @@ return {
 	};
 	JinWoo = {
 		Name = "Monarch";
-		Rarity = "Legendary";
+		Rarity = "Mythical";
 		Image = "rbxassetid://77293116688131";
 		ImageOff = "rbxassetid://140170434516013";
 		Area = 1;
-		HitDMG = 475;
-		UltDMG = 3750;
+		HitDMG = 650;
+		UltDMG = 4500;
 		HitsToUlt = 6;
 		UltTicks = 6;
 		TickDelay = 0.2;
 		AnimationType = "DualDagger";
+		HaveWeapon = true;
+	};
+	Esil = {
+		Name = "Wesil";
+		Rarity = "Legendary";
+		Image = "rbxassetid://75043579545095";
+		ImageOff = "rbxassetid://129909972390407";
+		Area = 1;
+		HitDMG = 1350;
+		UltDMG = 8200;
+		HitsToUlt = 6;
+		UltTicks = 4;
+		TickDelay = 0.4;
+		AnimationType = "WeaponRight";
+		HaveWeapon = true;
+	};
+	Vulcan = {
+		Name = "Magma";
+		Rarity = "Legendary";
+		Image = "rbxassetid://89465342794996";
+		ImageOff = "rbxassetid://118847381073243";
+		Area = 1;
+		HitDMG = 1560;
+		UltDMG = 9000;
+		HitsToUlt = 6;
+		UltTicks = 1;
+		TickDelay = 1;
+	};
+	Metus = {
+		Name = "Litch";
+		Rarity = "Legendary";
+		Image = "rbxassetid://83494924590990";
+		ImageOff = "rbxassetid://117357497123173";
+		Area = 1;
+		HitDMG = 2560;
+		UltDMG = 13000;
+		HitsToUlt = 6;
+		UltTicks = 4;
+		TickDelay = 0.55;
+	};
+	Baran = {
+		Name = "White Flame";
+		Rarity = "Mythical";
+		Image = "rbxassetid://119318086275592";
+		ImageOff = "rbxassetid://99138934209047";
+		Area = 1;
+		HitDMG = 3560;
+		UltDMG = 16000;
+		HitsToUlt = 6;
+		UltTicks = 5;
+		TickDelay = 0.55;
+		AnimationType = "WeaponRight";
 		HaveWeapon = true;
 	};
 	RedAnt = {
@@ -330,7 +382,7 @@ return {
 		Rarity = "Epic";
 		Image = "rbxassetid://113839395346393";
 		ImageOff = "rbxassetid://89728628972614";
-		Area = 3;
+		Area = 4;
 		HitDMG = 450;
 		UltDMG = 2541;
 		HitsToUlt = 7;
@@ -342,7 +394,7 @@ return {
 		Rarity = "Epic";
 		Image = "rbxassetid://76889954679021";
 		ImageOff = "rbxassetid://134523813870102";
-		Area = 3;
+		Area = 4;
 		HitDMG = 1.25;
 		UltDMG = 10;
 		HitsToUlt = 7;
@@ -356,7 +408,7 @@ return {
 		Rarity = "Epic";
 		Image = "rbxassetid://109899462635904";
 		ImageOff = "rbxassetid://117553936713386";
-		Area = 3;
+		Area = 4;
 		HitDMG = 1.25;
 		UltDMG = 10;
 		HitsToUlt = 7;
@@ -368,7 +420,7 @@ return {
 		Rarity = "Legendary";
 		Image = "rbxassetid://97471965633740";
 		ImageOff = "rbxassetid://139675221761579";
-		Area = 3;
+		Area = 4;
 		HitDMG = 1.25;
 		UltDMG = 10;
 		HitsToUlt = 7;
@@ -628,6 +680,90 @@ return {
 		StandIdle = "rbxassetid://139300392324708";
 		StandWalk = "rbxassetid://98941256430771";
 	};
+	Kame = {
+		Name = "Turtle";
+		Rarity = "Common";
+		Image = "rbxassetid://70798111519068";
+		ImageOff = "rbxassetid://101339068683777";
+		Area = 8;
+		HitDMG = 729;
+		UltDMG = 3645;
+		HitsToUlt = 7;
+		UltTicks = 6;
+		TickDelay = 0.4;
+	};
+	Piccolo = {
+		Name = "Green";
+		Rarity = "Common";
+		Image = "rbxassetid://75921494166975";
+		ImageOff = "rbxassetid://88613022012062";
+		Area = 8;
+		HitDMG = 822;
+		UltDMG = 4110;
+		HitsToUlt = 7;
+		UltTicks = 6;
+		TickDelay = 0.4;
+	};
+	Cell = {
+		Name = "Sky";
+		Rarity = "Common";
+		Image = "rbxassetid://109405597823060";
+		ImageOff = "rbxassetid://139194963960508";
+		Area = 8;
+		HitDMG = 916;
+		UltDMG = 4580;
+		HitsToUlt = 7;
+		UltTicks = 5;
+		TickDelay = 0.15;
+	};
+	Freeza = {
+		Name = "Frioo";
+		Rarity = "Epic";
+		Image = "rbxassetid://108110727195816";
+		ImageOff = "rbxassetid://140433550226931";
+		Area = 8;
+		HitDMG = 1138;
+		UltDMG = 7966;
+		HitsToUlt = 7;
+		UltTicks = 10;
+		TickDelay = 0.15;
+	};
+	Goku = {
+		Name = "Goku";
+		Rarity = "Epic";
+		Image = "rbxassetid://140500331554825";
+		ImageOff = "rbxassetid://103206934966957";
+		Area = 9;
+		HitDMG = 1.25;
+		UltDMG = 10;
+		HitsToUlt = 7;
+		UltTicks = 1;
+		TickDelay = 0.55;
+	};
+	Beerus = {
+		Name = "Beerus";
+		Rarity = "Epic";
+		Image = "rbxassetid://139031693510403";
+		ImageOff = "rbxassetid://108788867838814";
+		Area = 9;
+		HitDMG = 1.25;
+		UltDMG = 10;
+		HitsToUlt = 7;
+		UltTicks = 3;
+		TickDelay = 0.4;
+	};
+	VegetaEgo = {
+		Name = "VegetaEgo";
+		Rarity = "Legendary";
+		Image = "rbxassetid://92052320943642";
+		ImageOff = "rbxassetid://93351025370723";
+		Area = 9;
+		HitDMG = 1.25;
+		UltDMG = 10;
+		HitsToUlt = 7;
+		UltTicks = 1;
+		TickDelay = 0.55;
+	};
 	Genos = {
 		Name = "Genos";
 		Rarity = "Common";
@@ -699,90 +835,6 @@ return {
 		HitsToUlt = 7;
 		UltTicks = 1;
 		TickDelay = 1.85;
-	};
-	Kame = {
-		Name = "Kame";
-		Rarity = "Common";
-		Image = "rbxassetid://70798111519068";
-		ImageOff = "rbxassetid://101339068683777";
-		Area = 9;
-		HitDMG = 1.25;
-		UltDMG = 10;
-		HitsToUlt = 7;
-		UltTicks = 1;
-		TickDelay = 1.35;
-	};
-	Piccolo = {
-		Name = "Piccolo";
-		Rarity = "Common";
-		Image = "rbxassetid://75921494166975";
-		ImageOff = "rbxassetid://88613022012062";
-		Area = 9;
-		HitDMG = 1.25;
-		UltDMG = 10;
-		HitsToUlt = 7;
-		UltTicks = 1;
-		TickDelay = 0.8;
-	};
-	Cell = {
-		Name = "Cell";
-		Rarity = "Common";
-		Image = "rbxassetid://109405597823060";
-		ImageOff = "rbxassetid://139194963960508";
-		Area = 9;
-		HitDMG = 1.25;
-		UltDMG = 10;
-		HitsToUlt = 7;
-		UltTicks = 8;
-		TickDelay = 0.3;
-	};
-	Goku = {
-		Name = "Goku";
-		Rarity = "Epic";
-		Image = "rbxassetid://140500331554825";
-		ImageOff = "rbxassetid://103206934966957";
-		Area = 9;
-		HitDMG = 1.25;
-		UltDMG = 10;
-		HitsToUlt = 7;
-		UltTicks = 1;
-		TickDelay = 0.55;
-	};
-	Beerus = {
-		Name = "Beerus";
-		Rarity = "Epic";
-		Image = "rbxassetid://139031693510403";
-		ImageOff = "rbxassetid://108788867838814";
-		Area = 9;
-		HitDMG = 1.25;
-		UltDMG = 10;
-		HitsToUlt = 7;
-		UltTicks = 3;
-		TickDelay = 0.4;
-	};
-	Freeza = {
-		Name = "Freeza";
-		Rarity = "Epic";
-		Image = "rbxassetid://108110727195816";
-		ImageOff = "rbxassetid://140433550226931";
-		Area = 9;
-		HitDMG = 1.25;
-		UltDMG = 10;
-		HitsToUlt = 7;
-		UltTicks = 1;
-		TickDelay = 1.85;
-	};
-	VegetaEgo = {
-		Name = "VegetaEgo";
-		Rarity = "Legendary";
-		Image = "rbxassetid://92052320943642";
-		ImageOff = "rbxassetid://93351025370723";
-		Area = 9;
-		HitDMG = 1.25;
-		UltDMG = 10;
-		HitsToUlt = 7;
-		UltTicks = 1;
-		TickDelay = 0.55;
 	};
 	Killua = {
 		Name = "Killua";
