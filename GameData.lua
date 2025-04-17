@@ -22,7 +22,16 @@ local Data = {
     },
     Rune = {
         Data = {},
-        Image = {}
+        Image = {},
+        AllName = function(x)
+            local o = {}
+            for i,v in next, Rune do
+                if v.Name ~= (x or "") then
+                    table.insert(o, v.Name)
+                end
+            end
+            return o
+        end
     },
     Image = {}
 }
