@@ -45,19 +45,33 @@ local function GetEnemy(n)
         end
     end
 end
-
+local function ConvertWorld(x)
+    return
+        (x == "Dragon City" and "DBWorld") or
+        (x == "Brum Island" and "OPWorld") or
+        (x == "Lucky Kingdom" and "BCWorld") or
+        (x == "Mori Town" and "JojoWorld") or
+        (x == "Leveling City" and "SoloWorld") or
+        (x == "Grass Village" and "NarutoWorld") or
+        (x == "Faceheal Town" and "BleachWorld") or
+        (x == "Nipon City" and "ChainsawWorld")
+end
 for i,v in next, Rune do
     x0uz += 1
+    local b = Kw
+    if table.find(b, ConvertWorld(v.Dungeon.World)) then
+        table.remove(b, table.find(b, ConvertWorld(v.Dungeon.World)))
+    end
     Data.Rune.Data[v.Name] = {
         Type = {"Dropdown", "Dropdown2"},
         List = {"E", "D", "C", "B", "A", "S", "SS"},
         DropdownTitle = "Select Rank",
         DropdownTitle2 = "Select World",
-        List2 = Kw,
+        List2 = b,
         Multi = true,
         Multi2 = true,
         DefaultDropdown = {"E", "D", "C", "B", "A"},
-        DefaultDropdown2 = {"Leveling City", "Brum Island", "Grass Village"},
+        DefaultDropdown2 = {},
         LayoutOrder = x0uz
     }
     Data.Rune.Image[v.Name] = {
