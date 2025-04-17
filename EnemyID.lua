@@ -63,6 +63,7 @@ local a = {
         ["AntQueen"]  = "JJ3",
         ["Ant King"] = "JJ4",
         ["Beru"] = "JJ4",
+        ["Ziru"] = "JJ4",
         ["Vermillion"] = "Igris",
         ["Igris"] = "Igris",
         ["Monarch"] = "JinWoo",
