@@ -42,7 +42,11 @@ local EId = {
         ["Kame"] = "Turtle",
         ["Piccolo"] = "Green",
         ["Cell"] = "Sky",
-        ["Freeza"] = "Frioo"
+        ["Freeza"] = "Frioo",
+		["Genos"] = "Cyborg",
+		["Tornado"] = "Hurricane",
+		["Mumem"] = "Rider",
+		["Saitama"] = "Paitama"
     },
     Default = {
         ["Soondoo"] = "SL1",
@@ -131,7 +135,15 @@ local EId = {
         ["Sky"] = "DB3",
         ["Cell"] = "DB3",
         ["Frioo"] = "Freeza",
-        ["Freeza"] = "Freeza"
+        ["Freeza"] = "Freeza",
+		["Hurricane"] = "OPM3",
+		["Tornado"] = "OPM3",
+		["Rider"] = "OPM1",
+		["Mumem"] = "OPM1",
+		["Cyborg"] = "OPM2",
+		["Genos"] = "OPM2",
+		["Paitama"] = "Saitama",
+		["Saitama"] = "Saitama"
     },
     Convert = {}
 }
@@ -225,6 +237,17 @@ local Map = {
 		Pets = {
 			Normal = {"Kame", "Piccolo", "Cell"};
 			Dungeons = {"Freeza"};
+		};
+	};
+	{
+		Name = "XZ City";
+		Image = "rbxassetid://132008871583532";
+		Order = 9;
+		DungeonSpawns = {CFrame.new(5840.60693, 28.2571964, 5336.65625, 0.776761413, 0.629795074, 0, 0, 0, 0.99999994, 0.629795253, -0.776761293, 0), CFrame.new(6496.92041, 27.6620884, 4579.28271, 0.776899517, 0.629624665, 0, 0, 0, 1, 0.629624665, -0.776899517, 0), CFrame.new(6172.6333, 28.757122, 5190.14404, -0.629624486, 0.776899695, 0, 0, 0, 1, 0.776899815, 0.629624605, 0), CFrame.new(5890.09814, 28.7570801, 4613.43311, -0.629624546, 0.776899636, 0, 0, 0, 1, 0.776899636, 0.629624605, 0), CFrame.new(5995.14111, 28.7570477, 4520.38574, -0.776896656, -0.629628181, 0, 0, 0, 1, -0.629628122, 0.776896715, 0)};
+		Dungeons = {"OPMWorld"};
+		Pets = {
+			Normal = {"Genos", "Tornado", "Mumem"};
+			Dungeons = {"Saitama"};
 		};
 	};
 }
@@ -995,52 +1018,52 @@ local Pet = {
 		TickDelay = 0.55;
 	};
 	Genos = {
-		Name = "Genos";
+		Name = "Cyborg";
 		Rarity = "Common";
 		Image = "rbxassetid://79766928858773";
 		ImageOff = "rbxassetid://106347033503080";
-		Area = 8;
-		HitDMG = 1.25;
-		UltDMG = 10;
+		Area = 9;
+		HitDMG = 984;
+		UltDMG = 5120;
 		HitsToUlt = 7;
-		UltTicks = 1;
-		TickDelay = 1.35;
+		UltTicks = 10;
+		TickDelay = 0.35;
 	};
 	Tornado = {
-		Name = "Tornado";
+		Name = "Hurricane";
 		Rarity = "Common";
 		Image = "rbxassetid://126138839369014";
 		ImageOff = "rbxassetid://89583618342846";
-		Area = 8;
-		HitDMG = 1.25;
-		UltDMG = 10;
+		Area = 9;
+		HitDMG = 1084;
+		UltDMG = 5520;
 		HitsToUlt = 7;
-		UltTicks = 1;
-		TickDelay = 0.8;
+		UltTicks = 5;
+		TickDelay = 0.5;
 	};
 	Mumem = {
-		Name = "MumemRider";
+		Name = "Rider";
 		Rarity = "Common";
 		Image = "rbxassetid://128378128442053";
 		ImageOff = "rbxassetid://74253859300828";
-		Area = 8;
-		HitDMG = 1.25;
-		UltDMG = 10;
+		Area = 9;
+		HitDMG = 1185;
+		UltDMG = 6080;
 		HitsToUlt = 7;
-		UltTicks = 8;
+		UltTicks = 13;
 		TickDelay = 0.3;
 	};
 	Saitama = {
-		Name = "Saitama";
+		Name = "Paitama";
 		Rarity = "Epic";
 		Image = "rbxassetid://139239878579790";
 		ImageOff = "rbxassetid://109882019154618";
-		Area = 8;
-		HitDMG = 1.25;
-		UltDMG = 10;
+		Area = 9;
+		HitDMG = 1475;
+		UltDMG = 10325;
 		HitsToUlt = 7;
-		UltTicks = 1;
-		TickDelay = 0.55;
+		UltTicks = 2;
+		TickDelay = 0.75;
 	};
 	Garou = {
 		Name = "Garou";
@@ -1760,6 +1783,54 @@ local Info = {
 		UltTicks = 10;
 		TickDelay = 0.15;
 	};
+	{
+		Name = "Rider";
+		Rarity = "Common";
+		Image = "rbxassetid://128378128442053";
+		ImageOff = "rbxassetid://74253859300828";
+		Area = 9;
+		HitDMG = 1185;
+		UltDMG = 6080;
+		HitsToUlt = 7;
+		UltTicks = 13;
+		TickDelay = 0.3;
+	};
+	{
+		Name = "Cyborg";
+		Rarity = "Common";
+		Image = "rbxassetid://79766928858773";
+		ImageOff = "rbxassetid://106347033503080";
+		Area = 9;
+		HitDMG = 984;
+		UltDMG = 5120;
+		HitsToUlt = 7;
+		UltTicks = 10;
+		TickDelay = 0.35;
+	};
+	{
+		Name = "Hurricane";
+		Rarity = "Common";
+		Image = "rbxassetid://126138839369014";
+		ImageOff = "rbxassetid://89583618342846";
+		Area = 9;
+		HitDMG = 1084;
+		UltDMG = 5520;
+		HitsToUlt = 7;
+		UltTicks = 5;
+		TickDelay = 0.5;
+	};
+	{
+		Name = "Paitama";
+		Rarity = "Epic";
+		Image = "rbxassetid://139239878579790";
+		ImageOff = "rbxassetid://109882019154618";
+		Area = 9;
+		HitDMG = 1475;
+		UltDMG = 10325;
+		HitsToUlt = 7;
+		UltTicks = 2;
+		TickDelay = 0.75;
+	};
 }
 local Rune = {
 	{
@@ -1874,6 +1945,20 @@ local Rune = {
 		};
 		Rarity = "Rare";
 	};
+	{
+		Name = "XZ Rune";
+		Image = "rbxassetid://80827570043264";
+		Type = "DungeonItem";
+		Max = 10;
+		Desc = "Changes the boss and some of the dungeon enemies to be XZ City-themed.";
+		Dungeon = {
+			Unique = true;
+			TypeUnique = true;
+			Type = "WorldRune";
+			World = "OPMWorld";
+		};
+		Rarity = "Rare";
+	};
 }
 local Time = 0
 local x0uz = 0
@@ -1890,7 +1975,8 @@ local Data = {
             ["Leveling City"] = {},
             ["Grass Village"] = {},
             ["Faceheal Town"] = {},
-            ["Nipon City"] = {}
+            ["Nipon City"] = {},
+			["XZ City"] = {}
         }
     },
     Rune = {
@@ -1910,21 +1996,22 @@ local Data = {
     EnemyId = EId,
     Display = Pet
 }
-local function GetPet(n)
+Data.__index = Data
+function Data:GetPet(n)
     for i,v in next, Pet do
         if v.Name == n then
             return i
         end
     end
 end
-local function GetEnemy(n)
+function Data:GetEnemy(n)
     for i,v in next, Map do
         if table.find(v.Pets.Normal, n) then
             return v.Name
         end
     end
 end
-local function ConvertWorld(x)
+function Data:ConvertWorld(x)
     return
         (x == "DBWorld" and "Dragon City") or
         (x == "OPWorld" and "Brum Island") or
@@ -1933,9 +2020,10 @@ local function ConvertWorld(x)
         (x == "SoloWorld" and "Leveling City") or
         (x == "NarutoWorld" and "Grass Village") or
         (x == "BleachWorld" and "Faceheal Town") or
-        (x == "ChainsawWorld" and "Nipon City")
+        (x == "ChainsawWorld" and "Nipon City") or
+		(x == "OPMWorld" and "XZ City")
 end
-local function ReturnWorld(x)
+function Data:ReturnWorld(x)
     local k = {}
     for i,v in next, Map do
         if v.Name ~= (x or "") then
@@ -1951,7 +2039,7 @@ for i,v in next, Rune do
         List = {"E", "D", "C", "B", "A", "S", "SS"},
         DropdownTitle = "Select Rank",
         DropdownTitle2 = "Select World",
-        List2 = ReturnWorld(ConvertWorld(v.Dungeon.World)),
+        List2 = Data:ReturnWorld(Data:ConvertWorld(v.Dungeon.World)),
         Multi = true,
         Multi2 = true,
         DefaultDropdown = {"E", "D", "C", "B", "A"},
@@ -1966,10 +2054,10 @@ for i,v in next, Rune do
 end
 for i,v in next, Info do
     Time += 1
-    local b = GetPet(v.Name)
+    local b = Data:GetPet(v.Name)
     local g
     if b then
-       g = GetEnemy(b)
+       g = Data:GetEnemy(b)
     end
     if g then
         Data.Pets.Enemy[g][v.Name] = {
