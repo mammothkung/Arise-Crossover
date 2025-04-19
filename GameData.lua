@@ -1906,6 +1906,7 @@ local Data = {
             return o
         end
     },
+	Status = true,
     EnemyId = EId,
     Display = Pet
 }
