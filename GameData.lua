@@ -2059,6 +2059,32 @@ function Data:GetEnemy(n)
         end
     end
 end
+function Data:ConvertRank1(x)
+	return
+		(x == 1 and "E") or
+		(x == 2 and "D") or
+		(x == 3 and "C") or
+		(x == 4 and "B") or
+		(x == 5 and "A") or
+		(x == 6 and "S") or
+		(x == 7 and "SS") or
+		(x == 8 and "G") or
+		(x == 9 and "N") or
+		(x == 10 and "N+")
+end
+function Data:ConvertRank2(x)
+	return
+		(x == "E" and 1) or
+		(x == "D" and 2) or
+		(x == "C" and 3) or
+		(x == "B" and 4) or
+		(x == "A" and 5) or
+		(x == "S" and 6) or
+		(x == "SS" and 7) or
+		(x == "G" and 8) or
+		(x == "N" and 9) or
+		(x == "N+" and 10)
+end
 function Data:ConvertRune1(x)
 	return
 	(x == "DgSoloRune" and "Solo Rune") or
