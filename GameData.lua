@@ -2059,6 +2059,30 @@ function Data:GetEnemy(n)
         end
     end
 end
+function Data:ConvertRune1(x)
+	return
+	(x == "DgSoloRune" and "Solo Rune") or
+	(x == "DgNarutoRune" and "Grass Rune") or
+	(x == "DgOPRune" and "Brum Rune") or
+	(x == "DgBleachRune" and "Faceheal Rune") or
+	(x == "DgBCRune" and "Lucky Rune") or
+	(x == "DgChainsawRune" and "Nipon Rune") or
+	(x == "DgJojoRune" and "Mori Rune") or
+	(x == "DgDbRune" and "Dragon Rune") or
+	(x == "DgOPMRune" and "XZ Rune")
+end
+function Data:ConvertRune2(x)
+	return
+	(x == "Solo Rune" and "DgSoloRune") or
+	(x == "Grass Rune" and "DgNarutoRune") or
+	(x == "Brum Rune" and "DgOPRune") or
+	(x == "Faceheal Rune" and "DgBleachRune") or
+	(x == "Lucky Rune" and "DgBCRune") or
+	(x == "Nipon Rune" and "DgChainsawRune") or
+	(x == "Mori Rune" and "DgJojoRune") or
+	(x == "Dragon Rune" and "DgDbRune") or
+	(x == "XZ Rune" and "DgOPMRune")
+end
 function Data:ConvertWorld1(x)
     return
         (x == "DBWorld" and "Dragon City") or
