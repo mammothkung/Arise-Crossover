@@ -1905,7 +1905,7 @@ local Rune = {
 	};
 	{
 		Name = "Nipon Rune";
-		Image = "rbxassetid://99707824286950";
+		Image = "rbxassetid://74466484250996";
 		Type = "DungeonItem";
 		Max = 10;
 		Desc = "Changes the boss and some of the dungeon enemies to be Nipon City-themed.";
@@ -1919,7 +1919,7 @@ local Rune = {
 	};
 	{
 		Name = "Mori Rune";
-		Image = "rbxassetid://138559466857104";
+		Image = "rbxassetid://116059500017113";
 		Type = "DungeonItem";
 		Max = 10;
 		Desc = "Changes the boss and some of the dungeon enemies to be Mori Town-themed.";
@@ -1992,6 +1992,53 @@ local Data = {
             return o
         end
     },
+	WorldImageList = {
+		["Leveling City"] = {
+            Image = "131873339048828",
+            Color = false,
+            BackgroundTransparency = 1
+        },
+        ["Grass Village"] = {
+            Image = "104911825763848",
+            Color = false,
+            BackgroundTransparency = 1
+        },
+        ["Brum Island"] = {
+            Image = "132732778172064",
+            Color = false,
+            BackgroundTransparency = 1
+        },
+        ["Faceheal Town"] = {
+            Image = "106171946571067",
+            Color = false,
+            BackgroundTransparency = 1
+        },
+        ["Lucky Kingdom"] = {
+            Image = "101471514628522",
+            Color = false,
+            BackgroundTransparency = 1
+        },
+        ["Nipon City"] = {
+            Image = "88278898472669",
+            Color = false,
+            BackgroundTransparency = 1
+        },
+        ["Mori Town"] = {
+            Image = "90404022089422",
+            Color = false,
+            BackgroundTransparency = 1
+        },
+        ["Dragon City"] = {
+            Image = "75201703676756",
+            Color = false,
+            BackgroundTransparency = 1
+        },
+		["XZ City"] = {
+            Image = "130237077803990",
+            Color = false,
+            BackgroundTransparency = 1
+		}
+	},
 	Status = true,
     EnemyId = EId,
     Display = Pet
@@ -2011,7 +2058,7 @@ function Data:GetEnemy(n)
         end
     end
 end
-function Data:ConvertWorld(x)
+function Data:ConvertWorld1(x)
     return
         (x == "DBWorld" and "Dragon City") or
         (x == "OPWorld" and "Brum Island") or
@@ -2022,6 +2069,18 @@ function Data:ConvertWorld(x)
         (x == "BleachWorld" and "Faceheal Town") or
         (x == "ChainsawWorld" and "Nipon City") or
 		(x == "OPMWorld" and "XZ City")
+end
+function Data:ConvertWorld2(x)
+    return
+        (x == "Dragon City" and "DBWorld") or
+        (x == "Brum Island" and "OPWorld") or
+        (x == "Lucky Kingdom" and "BCWorld") or
+        (x == "Mori Town" and "JojoWorld") or
+        (x == "Leveling City" and "SoloWorld") or
+        (x == "Grass Village" and "NarutoWorld") or
+        (x == "Faceheal Town" and "BleachWorld") or
+        (x == "Nipon City" and "ChainsawWorld") or
+		(x == "XZ City" and "OPMWorld")
 end
 function Data:ReturnWorld(x)
     local k = {}
@@ -2039,7 +2098,7 @@ for i,v in next, Rune do
         List = {"E", "D", "C", "B", "A", "S", "SS"},
         DropdownTitle = "Select Rank",
         DropdownTitle2 = "Select World",
-        List2 = Data:ReturnWorld(Data:ConvertWorld(v.Dungeon.World)),
+        List2 = Data:ReturnWorld(Data:ConvertWorld1(v.Dungeon.World)),
         Multi = true,
         Multi2 = true,
         DefaultDropdown = {"E", "D", "C", "B", "A"},
