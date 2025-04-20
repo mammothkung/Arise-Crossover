@@ -2039,6 +2039,7 @@ local Data = {
             BackgroundTransparency = 1
 		}
 	},
+	WorldDungeon = {},
 	Status = true,
     EnemyId = EId,
     Display = Pet
@@ -2090,6 +2091,19 @@ function Data:ReturnWorld(x)
         end
     end
     return k
+end
+for i,v in next, Data:ReturnWorld() do
+	Data.WorldDungeon[v] = {
+		Type = {"Dropdown", "Dropdown2"},
+		Multi = true,
+		AllowNull2 = true,
+		DropdownTitle = "Select Rank",
+		DropdownTitle2 = "Select Rune",
+		List = {"E", "D", "C", "B", "A", "S", "SS"},
+		List2 = Data.Rune.AllName(Rune[i].Dungeon.World),
+		DefaultDropdown = {"E", "D", "C", "B", "A", "S", "SS"},
+		LayoutOrder = i
+	}
 end
 for i,v in next, Rune do
     x0uz += 1
